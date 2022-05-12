@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ALL IN</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jillian Fatima M. Rosacay">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="05-07-2022">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" href="images/icon.jpg" type="image/gif">
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">	
+	</head>
+	<body>
+		<header>
+			<img id="logo" src="images/icon.jpg">
+			<h1> ALL IN </h1>
+		</header>
+		<div id="skzGroup">
+			<span class="hoverText" data-hover="(have as much fun as you want)"> 好きな様 楽しめ </span>
+		</div>
+		<section id="content">
+			<p> Now that you've entered the Back Door, are you ready to STEP OUT and go ALL IN in a quiz about Stray Kids? </p>
+			
+			<p> This website is the perfect place to test your knowledge on the South Korean boy group, Stray Kids! If you need a quick review on them, you can check 
+			<a href="https://bit.ly/SKZIntoTheBackDoor">this website</a> here.</p>
+			
+			<p> This is a 15-point quiz with ranging difficulty. There will be four easy questions, four medium questions, four difficult questions, and 3 expert questions. 
+			Those questions are worth 3 points, 5 points, 7 points, and 10 points respectively. </p>
+			
+			<p> Before you proceed, kindly enter your username for this quiz. </p>
+		</section>
+		<form id="uName" action="htdocs/leaderboard.html" onsubmit= "return nextP()">
+			<label for="userName"> Username:<span>*</span> </label>
+			<input type="text" id="userName" name="userName" required>
+			
+			<br/>
+			<br/>
+			
+			<button type="submit"> <img id="pic1" src="images/ALLIN.jpg"><br/>Next Page</button>
+		</form>
+		<script src="javascript/myscript.js"></script>
+	</body>
+</html>
